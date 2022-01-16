@@ -9,13 +9,13 @@
     tools:context=".UI.UserData">
 
     <ImageView
-        android:padding="5dp"
-        android:src="@drawable/ic_baseline_person_24"
-        android:requiresFadingEdge="horizontal"
-        android:fadingEdge="vertical"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_gravity="center_horizontal"
+        android:fadingEdge="vertical"
+        android:padding="5dp"
+        android:requiresFadingEdge="horizontal"
+        android:src="@drawable/user" />
 
     <LinearLayout
         android:padding="5dp"
@@ -29,9 +29,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
-            android:fontFamily="serif"
+            android:fontFamily="@font/averia_serif_libre_light"
             android:text="Name : "
-            android:textColor="#0099ff"
+            android:textColor="#FF9800"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -59,9 +59,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
             android:textSize="18sp"
-            android:fontFamily="serif"
+            android:fontFamily="@font/averia_serif_libre_light"
             android:textStyle="bold"
-            android:textColor="#0099ff"
+            android:textColor="#FF9800"
             android:text="Account No : "/>
 
         <TextView
@@ -88,9 +88,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
             android:textSize="18sp"
-            android:fontFamily="serif"
+            android:fontFamily="@font/averia_serif_libre_light"
             android:textStyle="bold"
-            android:textColor="#0099ff"
+            android:textColor="#FF9800"
             android:text="Email : "/>
 
         <TextView
@@ -117,16 +117,16 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
             android:textSize="18sp"
-            android:fontFamily="serif"
+            android:fontFamily="@font/averia_serif_libre_light"
             android:textStyle="bold"
-            android:textColor="#0099ff"
+            android:textColor="#FF9800"
             android:text="IFSC Code : "/>
 
         <TextView
             android:id="@+id/ifsc_id"
             android:layout_weight="1"
             android:textAlignment="textEnd"
-            android:fontFamily="serif"
+            android:fontFamily="@font/averia_serif_libre_light"
             android:textSize="18sp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
@@ -146,9 +146,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
             android:textSize="18sp"
-            android:fontFamily="serif"
+            android:fontFamily="@font/averia_serif_libre_light"
             android:textStyle="bold"
-            android:textColor="#0099ff"
+            android:textColor="#FF9800"
             android:text="Mobile No : "/>
 
         <TextView
@@ -175,9 +175,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
             android:textSize="18sp"
-            android:fontFamily="serif"
+            android:fontFamily="@font/averia_serif_libre_light"
             android:textStyle="bold"
-            android:textColor="#0099ff"
+            android:textColor="#FF9800"
             android:text="Current Balance : "/>
 
         <TextView
@@ -199,7 +199,7 @@
         android:layout_height="wrap_content"
         android:padding="5dp"
         android:textStyle="bold"
-        android:backgroundTint="#0099ff"
+        android:backgroundTint="#FF9800"
         android:fontFamily="@font/averia_serif_libre_light"
         android:layout_marginTop="100dp"
         android:layout_marginLeft="100dp"
